@@ -83,3 +83,7 @@ bun add --filter @apps/server <package>   # a single workspace
 `services/*` is deliberately absent. If a long-running worker needs its own
 deployable, create `services/<name>`, add `"services/*"` to `workspaces`, and
 widen the `dev`/`build`/`start` filters to `--filter '@apps/*' --filter '@services/*'`.
+
+## License
+
+[MIT](LICENSE) © 2026 Koray Güler
